@@ -1,0 +1,5 @@
+{
+  "name": "Tennis Duo Pro",
+  "description": "A professional interactive double-elimination tournament bracket manager for tennis doubles.",
+  "requestFramePermissions": []
+}
