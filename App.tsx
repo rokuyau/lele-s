@@ -142,8 +142,8 @@ export default function App() {
           let targetSlot = 0;
 
           // Mapping logic for loser slots
-          if (['w1', 'w3'].includes(matchId)) targetSlot = 0;
-          if (['w2', 'w4', 'w5', 'w6', 'w7'].includes(matchId)) targetSlot = 1;
+          if (['w1', 'w2'].includes(matchId)) targetSlot = 0;
+          if (['w3', 'w4', 'w5', 'w6', 'w7'].includes(matchId)) targetSlot = 1;
           
           const newNextTeams = [...nextMatch.teams] as [Team, Team];
           newNextTeams[targetSlot] = { ...newNextTeams[targetSlot], name: loserName };

@@ -3,13 +3,13 @@ import { Match, Position } from './types';
 export const INITIAL_MATCHES: Match[] = [
   // --- Winners Bracket Round 1 (R1) ---
   { id: 'w1', name: 'R1-A', nextWin: 'w5', nextLose: 'l1', teams: [{ name: '组合 A', score: '' }, { name: '组合 B', score: '' }] },
-  { id: 'w2', name: 'R1-B', nextWin: 'w5', nextLose: 'l1', teams: [{ name: '组合 C', score: '' }, { name: '组合 D', score: '' }] },
-  { id: 'w3', name: 'R1-C', nextWin: 'w6', nextLose: 'l2', teams: [{ name: '组合 E', score: '' }, { name: '组合 F', score: '' }] },
+  { id: 'w2', name: 'R1-B', nextWin: 'w5', nextLose: 'l2', teams: [{ name: '组合 C', score: '' }, { name: '组合 D', score: '' }] },
+  { id: 'w3', name: 'R1-C', nextWin: 'w6', nextLose: 'l1', teams: [{ name: '组合 E', score: '' }, { name: '组合 F', score: '' }] },
   { id: 'w4', name: 'R1-D', nextWin: 'w6', nextLose: 'l2', teams: [{ name: '组合 G', score: '' }, { name: '组合 H', score: '' }] },
 
   // --- Losers Bracket Round 1 (L1) ---
-  { id: 'l1', name: 'L-R1-A', nextWin: 'l3', nextLose: null, teams: [{ name: 'TBD', score: '', placeholder: 'W1败者' }, { name: 'TBD', score: '', placeholder: 'W2败者' }] },
-  { id: 'l2', name: 'L-R1-B', nextWin: 'l4', nextLose: null, teams: [{ name: 'TBD', score: '', placeholder: 'W3败者' }, { name: 'TBD', score: '', placeholder: 'W4败者' }] },
+  { id: 'l1', name: 'L-R1-A', nextWin: 'l3', nextLose: null, teams: [{ name: 'TBD', score: '', placeholder: 'W1败者' }, { name: 'TBD', score: '', placeholder: 'W3败者' }] },
+  { id: 'l2', name: 'L-R1-B', nextWin: 'l4', nextLose: null, teams: [{ name: 'TBD', score: '', placeholder: 'W2败者' }, { name: 'TBD', score: '', placeholder: 'W4败者' }] },
 
   // --- Winners Bracket Semi-Finals (W-Semi) ---
   { id: 'w5', name: 'W-Semi-A', nextWin: 'w7', nextLose: 'l4', teams: [{ name: 'TBD', score: '', placeholder: 'W1胜者' }, { name: 'TBD', score: '', placeholder: 'W2胜者' }] },
